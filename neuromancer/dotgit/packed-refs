@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+a6ce19067df387123ab9beebfb3ea4f8a873e76c refs/remotes/origin/master
+3ae7646c14465d6ae3716ba7935a88ee89bcaf80 refs/remotes/origin/patch-1
+f71fad1d50fc6ac279917717469e865013bc1b7e refs/remotes/origin/patch-2
+dc781cc39ee11a703917ab8d53090331a5dc7293 refs/remotes/origin/remindfix
+716d45fef718fe493ca4dcb68f53da09ba36db05 refs/remotes/origin/weather-cleanup

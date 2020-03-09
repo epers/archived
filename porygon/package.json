@@ -1,0 +1,25 @@
+{
+  "name": "porygon",
+  "version": "2.0.0",
+  "description": "cross-channel/server/platform chatbot framework",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epers/porygon.git"
+  },
+  "author": "pers.edwin@gmail.com",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/epers/porygon/issues"
+  },
+  "homepage": "https://github.com/epers/porygon#readme",
+  "dependencies": {
+    "irc-colors": "^1.4.2",
+    "irc-framework": "^3.0.0",
+    "mathjs": "^5.0.2",
+    "minimist": "^1.2.0"
+  }
+}

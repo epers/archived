@@ -1,0 +1,39 @@
+/* 
+    const stopResult = functions.stop(childIdent);
+    setTimeout(() => {
+      if (stopResult.result === true) { // if it stops okay
+        const startResult = functions.start(moduleIdent);
+        if (startResult.result === true) { // if it starts okay
+          result = true;
+          machineReadable = 'modRestartOk';
+          humanReadable = [
+            { 'text': 'Module [' },
+            { 'text': childIdent, 'color': 'blue' },
+            { 'text': '] restarted successfully' },
+          ];
+        } else { // if the start failed
+          error = stopResult.error;
+          result = false;
+          humanReadable = [
+            { 'text': 'Module [' },
+            { 'text': childIdent, 'color': 'red' },
+            { 'text': `] restart failed: ${error.message}` }
+          ];
+        }
+      } else { // if the stop failed
+        error = stopResult.error;
+        result = false;
+        humanReadable = [
+          { 'text': 'Module [' },
+          { 'text': childIdent, 'color': 'red' },
+          { 'text': `] restart failed: ${error.message}` }
+        ];
+      }
+      return {
+        'error': error,
+        'result': result,
+        'machineReadable': machineReadable,
+        'humanReadable': humanReadable
+      };
+    }, 500); */
+
