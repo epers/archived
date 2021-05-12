@@ -21,7 +21,7 @@
     "irc-framework": "^3.0.0",
     "minimist": "^1.2.0",
     "require-reload": "^0.2.2",
-    "mathjs": "^5.0.1",
+    "mathjs": "^7.5.1",
     "irc-colors": "^1.4.2"
   }
 }
